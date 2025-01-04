@@ -118,8 +118,9 @@ body {
 }
 
 .price {
+    text-align: right;
     top: 25px;
-    right: 80px;
+    right: 55px;
     font-size: 17px
 }
 
@@ -162,21 +163,6 @@ body {
     text-decoration: none
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th {
-    text-align: center;
-    width: 180px;
-}
-
-td,
-th {
-    padding: 8px;
-    border-bottom: 1px solid #ddd;
-}
 
 table {
     width: 100%;
@@ -193,3 +179,4 @@ th {
     padding: 8px;
     border-bottom: 1px solid #ddd;
 }
+

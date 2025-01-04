@@ -106,7 +106,7 @@ body {
     display: flex;
     direction: rtl;
     justify-content: center;
-    border: 2px solid #000;
+    border: 2px solid #000;  
     border-radius: 5px;
     height: 65px
 }
@@ -157,7 +157,7 @@ body {
 }
 
 .footer_link {
-    justify-content: flex-start;
+    justify-content: center;
     top: 45px;
     color: #000;
     text-decoration: none
@@ -179,12 +179,12 @@ body {
 .table-header {
     text-align: right;
     padding: 12px;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
     width: 150px;
 }
 
 td {
-    padding: 12px;
+    /* padding-left: 22px; */
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
 }

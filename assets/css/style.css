@@ -164,19 +164,27 @@ body {
 }
 
 
-table {
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
     width: 100%;
+    max-width: 600px;
     border-collapse: collapse;
 }
 
-th {
-    text-align: center;
-    width: 120px;
+.table-header {
+    text-align: right;
+    padding: 12px;
+    background-color: #f2f2f2;
+    width: 150px;
 }
 
-td,
-th {
-    padding: 8px;
+td {
+    padding: 12px;
+    text-align: left;
     border-bottom: 1px solid #ddd;
 }
-

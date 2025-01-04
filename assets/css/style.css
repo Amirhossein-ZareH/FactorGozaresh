@@ -161,3 +161,19 @@ body {
     color: #000;
     text-decoration: none
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    width: 180px;
+}
+
+td,
+th {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}

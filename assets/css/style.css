@@ -26,8 +26,7 @@ body {
     text-align: center
 }
 
-.header_brand,
-.header_date {
+.header_brand {
     text-align: right;
     color: #000
 }
@@ -41,7 +40,6 @@ body {
 .all,
 .footer_para,
 .header_brand,
-.header_date,
 .price {
     font-weight: 600
 }
@@ -52,24 +50,10 @@ body {
     margin-top: 20px
 }
 
-.header_date {
-    font-size: 20px;
-    margin-bottom: 20px
-}
-
 .footer_factor,
 .section_factor,
 .table-data td {
     text-align: center
-}
-
-.header_factor_num {
-    position: relative;
-    top: 26px;
-    right: 90px;
-    color: #000;
-    font-weight: 600;
-    font-size: 20px
 }
 
 .section_factor,
@@ -187,4 +171,30 @@ td {
     /* padding-left: 22px; */
     text-align: left;
     /* border-bottom: 1px solid #ddd; */
+}
+
+.tarikh_border{
+    margin-top: 30px;
+    border: 2px solid black;
+    border-bottom: none;
+
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.header_date1{
+    margin-top: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.header_date2{
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.header_tarikh{
+    margin-top: 20px;
 }
